@@ -1,0 +1,15 @@
+spring.application.name=mcp
+
+spring.main.web-application-type=servlet
+
+spring.ai.mcp.server.name=erp-dev-mcp
+spring.ai.mcp.server.version=0.0.1
+
+spring.main.banner-mode=off
+
+openai.api-key={apikey}
+openai.model=gpt-4o-mini
+
+mcp.orchestrator.max-attempts=5
+
+springdoc.swagger-ui.path=/swagger
