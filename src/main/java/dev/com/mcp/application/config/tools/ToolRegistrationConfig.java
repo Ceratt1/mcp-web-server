@@ -1,4 +1,4 @@
-package dev.com.mcp.config;
+package dev.com.mcp.application.config.tools;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
