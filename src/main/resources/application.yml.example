@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: mcp
+  main:
+    web-application-type: servlet
+    banner-mode: "off"
+  ai:
+    mcp:
+      server:
+        name: erp-dev-mcp
+        version: 0.0.1
+  datasource:
+    url: jdbc:postgresql://localhost:5454/order_services
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+openai:
+  api-key: ${OPENAI_API_KEY:}
+  model: gpt-4o-mini
+  tool-choice: auto
+
+mcp:
+  orchestrator:
+    max-attempts: 5
+
+springdoc:
+  swagger-ui:
+    path: /swagger

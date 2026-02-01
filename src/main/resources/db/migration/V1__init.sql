@@ -1,0 +1,5 @@
+-- create table if not exists order_services (
+--     id bigserial primary key,
+--     order_number text not null,
+--     customer_name text not null
+-- );
